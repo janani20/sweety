@@ -1,14 +1,12 @@
 #include<stdio.h>
 void main()
 {
-int n;
-printf("\n Enter the number :");
-scanf("%d",&n);
-if(n%4==0)
-{ 
-printf("\n Given year is leap year");
-}
+char s;
+printf("\n Enter any character:");
+scanf("%c",&s);
+if(s>='a'&&s<='z')
+printf("\n %c is a alphabet",s);
 else
-printf("\n Given year is nonleap year");
+printf("\n %c is not a alphabet",s);
 getch();
 }
